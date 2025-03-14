@@ -18,87 +18,40 @@ export default function Home() {
               priority
             />
             <div>
-              <ul className="flex flex-col gap-4 text-center sm:flex-row sm:gap-8">
+              <ul className="flex flex-col gap-4 text-center sm:flex-row sm:gap-2">
                 <li>
-                  <Link href="/about">
-                  <p className="text-white font-light border-1 border-black py-3 px-3 bg-gray-950 bg-opacity-5">INGENIERÍA ESTRUCTURAL</p>
+                  <Link href="/ingenieria-estructural">
+                  <p className="font-light border-1 border-black py-2 px-3 bg-gray-900 hover:bg-gray-700 text-gray-100 text-1lg">INGENIERÍA ESTRUCTURAL</p>
                   </Link>
                 </li>
                 <li>
                   <Link href="/geoingenierias">
-                  <p className="text-white font-light border-1 border-black py-3 px-3 bg-gray-950 bg-opacity-5">GEOINGENIERÍAS</p>
+                  <p className="font-light border-1 border-black py-2 px-3 bg-gray-900 hover:bg-gray-700 text-gray-100 bg-opacity-5 text-1lg">GEOINGENIERÍAS</p>
                   </Link>
                 </li>
                 <li>
                   <Link href="/ingenieria-ambiental">
-                  <p className="text-white font-light border-1 border-black py-3 px-3 bg-gray-950 bg-opacity-5">INGENIERÍA AMBIENTAL</p>
+                  <p className="font-light border-1 border-black py-2 px-3 bg-gray-900 hover:bg-gray-700 text-gray-100 bg-opacity-5 text-1lg">INGENIERÍA AMBIENTAL</p>
                   </Link>
                 </li>
                 <li>
                   <Link href="/capacitacion-especializada">
-                  <p className="text-white font-light border-1 border-black py-3 px-3 bg-gray-950 bg-opacity-5">CAPACITACIÓN ESPECIALIZADA</p>
+                  <p className="font-light border-1 border-black py-2 px-3 bg-gray-900 hover:bg-gray-700 text-gray-100 bg-opacity-5 text-1lg">CAPACITACIÓN ESPECIALIZADA</p>
                   </Link>
                 </li>
                 <li>
                   <Link href="/equipo-de-trabajo">
-                  <p className="text-white font-light border-1 border-black py-3 px-3 bg-gray-950 bg-opacity-5">EQUIPO DE TRABAJO</p>
+                  <p className="font-light border-1 border-black py-2 px-3 bg-gray-900 hover:bg-gray-700 text-gray-100 bg-opacity-5 text-1lg">EQUIPO DE TRABAJO</p>
                   </Link>
                 </li>
                 <li>
                   <Link href="/contacto">
-                  <p className="text-white font-light border-1 border-black py-3 px-3 bg-gray-950 bg-opacity-5">CONTACTO</p>
+                  <p className="font-light border-1 border-black py-2 px-3 bg-gray-900 hover:bg-gray-700 text-gray-100 bg-opacity-5 text-1lg">CONTACTO</p>
                   </Link>
                 </li>
               </ul>
             </div>
           </div>
       </div>
-    // <div className="flex items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)] bg-gradient-to-r from-blue-900 to-blue-950 justify-center">
-      
-    //   <main className="flex flex-col gap-[32px] row-start-2 items-center justify-center">
-    //     <Image
-    //       className="dark:invert"
-    //       src="/logo.png"
-    //       alt="Next.js logo"
-    //       width={300}
-    //       height={38}
-    //       priority
-    //     />
-    //     <div>
-    //       <ul className="flex flex-col gap-4 text-center sm:flex-row sm:gap-8">
-    //         <li>
-    //           <Link href="/about">
-    //           <p className="text-white font-light border-1 border-blue-900 py-3 px-3">INGENIERÍA ESTRUCTURAL</p>
-    //           </Link>
-    //         </li>
-    //         <li>
-    //           <Link href="/geoingenierias">
-    //           <p className="text-white font-light border-1 border-blue-900 py-3 px-3">GEOINGENIERÍAS</p>
-    //           </Link>
-    //         </li>
-    //         <li>
-    //           <Link href="/ingenieria-ambiental">
-    //           <p className="text-white font-light border-1 border-blue-900 py-3 px-3">INGENIERÍA AMBIENTAL</p>
-    //           </Link>
-    //         </li>
-    //         <li>
-    //           <Link href="/capacitacion-especializada">
-    //           <p className="text-white font-light border-1 border-blue-900 py-3 px-3">CAPACITACIÓN ESPECIALIZADA</p>
-    //           </Link>
-    //         </li>
-    //         <li>
-    //           <Link href="/equipo-de-trabajo">
-    //           <p className="text-white font-light border-1 border-blue-900 py-3 px-3">EQUIPO DE TRABAJO</p>
-    //           </Link>
-    //         </li>
-    //         <li>
-    //           <Link href="/contacto">
-    //           <p className="text-white font-light border-1 border-blue-900 py-3 px-3">CONTACTO</p>
-    //           </Link>
-    //         </li>
-    //       </ul>
-    //     </div>
-    //   </main>
-    // </div>
   );
 }
