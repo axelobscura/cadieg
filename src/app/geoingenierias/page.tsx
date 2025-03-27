@@ -21,9 +21,9 @@ export default function GeoIngenierias() {
     "Análisis de riesgo geológico, geotécnico, sísmico y geohidrológico.",
   ];
   return (
-    <div className="relative h-screen overflow-hidden bg-gray-100">
-          <div className="grid grid-cols-[1fr_3fr] items-center justify-center h-full">
-            <div className="flex flex-col items-center justify-start h-full bg-gray-900 py-5">
+    <div className="relative h-screen overflow-hidden bg-[url('/bg2.jpg')] bg-cover bg-center">
+          <div className="grid grid-cols-[1fr_4fr] items-center justify-center h-full" style={{ backgroundColor: "rgba(0, 0, 0, 0.8)" }}>
+            <div className="flex flex-col items-center justify-start h-full py-5">
               <Link href={"/"}>
                 <Image
                   className="dark:invert mb-10"
@@ -36,14 +36,14 @@ export default function GeoIngenierias() {
               </Link>
               <MenuLateral />
             </div>
-            <div className="bg-gray-200 h-full p-10">
-              <h1 className="text-4xl uppercase font-light pb-5">Geoingenierías</h1>
+            <div className="h-full p-10 flex items-center justify-center flex-col">
+              <h1 className="text-4xl uppercase font-light p-5 text-white">Geoingenierías</h1>
               <hr/>
-              <ul className="p-5 list-disc text-3xl">
+              <div className="list-disc text-3xl p-10 px-20 grid grid-cols-3 gap-5">
                 {servicios.map((servicio, index) => (
-                  <li key={index} className="text-xl font-light p-1">{servicio}</li>
+                  <div key={index} className="text-sm font-light text-white flex justify-content-center items-center p-5 text-center" style={{ backgroundColor: "rgba(0, 0, 0, 0.8)" }}>{servicio}</div>
                 ))}
-              </ul>
+              </div>
             </div>
           </div>
       </div>
