@@ -5,15 +5,15 @@ export default function Home() {
   return (
     <div className="relative h-screen overflow-hidden bg-gray-950">
           <video src="https://videos.pexels.com/video-files/1197802/1197802-hd_1920_1080_25fps.mp4" className="absolute z-10 w-auto min-w-full min-h-full max-w-none" style={{
-            filter: 'grayscale(100%)',
+            filter: 'white(100%)',
             opacity: '0.3',
           }} autoPlay loop muted></video>
           <div className="relative z-20 flex flex-col items-center justify-center h-full">
             <Image
-              className="dark:invert mb-10"
-              src="/logo.png"
-              alt="Next.js logo"
-              width={300}
+              className="mb-10"
+              src="/Cadieg_Logo_Final_SinFondo.png"
+              alt="CADIEG - Centro de Análisis y Diseño en Ingeniería Estructural y Geotecnia"
+              width={500}
               height={38}
               priority
             />

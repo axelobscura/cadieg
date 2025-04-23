@@ -16,7 +16,7 @@ export default function IngenieriaAmbiental() {
             <div className="flex flex-col items-center justify-start h-full py-5">
               <Link href={"/"}>
                 <Image
-                  className="dark:invert mb-10"
+                  className="mb-10"
                   src="/logo.png"
                   alt="Next.js logo"
                   width={200}
