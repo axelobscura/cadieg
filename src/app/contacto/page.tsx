@@ -19,8 +19,8 @@ export default function Contacto() {
               </Link>
               <MenuLateral />
             </div>
-            <div className="bg-gray-200 h-full p-10">
-              <div className="grid grid-cols-[1fr] sm:grid-cols-[1fr_1fr] gap-2 items-center justify-center h-full">
+            <div className="bg-gray-200 h-full p-0">
+              <div className="grid grid-cols-[1fr] sm:grid-cols-[1fr_1fr] gap-2 items-start justify-start h-full bg-gray-950 pt-10">
                 <div>
                   <div className="flex flex-col items-center justify-center h-full">
                     <a href="https://www.facebook.com/cadieg" target="_blank" rel="noopener noreferrer">
@@ -33,12 +33,11 @@ export default function Contacto() {
                     </a>
                   </div>
                 </div>
-                <div>
-                  <h1 className="text-4xl uppercase font-light pb-5">Contacto</h1>
-                  <p className="text-lg">Si tienes alguna pregunta o comentario, no dudes en ponerte en contacto con nosotros.</p>
-                  <p className="text-lg">Puedes enviarnos un correo electrónico a: <a href="mailto:contacto@cadieg.com.mx" className="text-blue-500">contacto@cadieg.com.mx</a></p>
-                  <p className="text-lg">O llamarnos al: <a href="tel:+5259-9999" className="text-blue-500">+52 55 5555 5555</a></p>
-                  <p className="text-lg">También puedes seguirnos en nuestras redes sociales:</p>
+                <div className="text-white">
+                  <h1 className="text-4xl uppercase font-bold pb-5">Contacto</h1>
+                  <hr/>
+                  <p className="text-lg pt-10">Si tienes alguna pregunta o comentario, no dudes en ponerte en contacto con nosotros.</p><br/>
+                  <p className="text-lg">Puedes enviarnos un correo electrónico a:<br/><a href="mailto:contacto@cadieg.com.mx" className="text-blue-500">contacto@cadieg.com.mx</a></p>
                 </div>
               </div>
               <hr/>
