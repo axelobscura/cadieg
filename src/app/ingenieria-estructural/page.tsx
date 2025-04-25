@@ -31,11 +31,15 @@ export default function IngenieriaEstructural() {
               <MenuLateral />
             </div>
             <div className="h-full p-10 flex items-center justify-center flex-col">
-              <h1 className="text-4xl uppercase font-light p-5 text-white">Ingeniería Estructural</h1>
+              <h1 className="text-6xl uppercase font-bold p-5 text-white">Ingeniería Estructural</h1>
               <hr/>
               <div className="list-disc text-3xl p-10 px-20 grid grid-cols-3 gap-5">
                 {servicios.map((servicio, index) => (
-                  <div key={index} className="text-sm font-light text-white flex justify-content-center items-center p-5 text-center" style={{ backgroundColor: "rgba(0, 0, 0, 0.8)" }}>{servicio}</div>
+                  <div key={index} className="text-sm font-light text-white flex justify-content-start items-start p-5 text-justify" style={{ 
+                    backgroundColor: "rgba(0, 0, 0, 0.8)",
+                    textAlign: "left",
+                    fontSize: "1.2rem",
+                  }}>{servicio}</div>
                 ))}
               </div>
             </div>

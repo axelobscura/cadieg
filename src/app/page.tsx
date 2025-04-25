@@ -11,9 +11,9 @@ export default function Home() {
           <div className="relative z-20 flex flex-col items-center justify-center h-full">
             <Image
               className="mb-10"
-              src="/Cadieg_Logo_Final_SinFondo.png"
+              src="/logo.png"
               alt="CADIEG - Centro de Análisis y Diseño en Ingeniería Estructural y Geotecnia"
-              width={500}
+              width={400}
               height={38}
               priority
             />
