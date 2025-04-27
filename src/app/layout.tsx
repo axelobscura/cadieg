@@ -19,7 +19,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "CADIEG - Centro de Análisis y Diseño en Ingeniería Estructural y Geotecnia",
+  title: "CADIEG - Consultoría Avanzada en Diseño Estructural y Geoingenierías",
   description: "Consultoría avanzada en diseño estructural y geotecnia.",
 };
 
