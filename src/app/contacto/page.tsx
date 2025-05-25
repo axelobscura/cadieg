@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import MenuLateral from "../components/MenuLateral";
+import { FaArrowCircleRight } from "react-icons/fa";
 
 export default function Contacto() {
   return (
@@ -34,7 +35,7 @@ export default function Contacto() {
                   </div>
                 </div>
                 <div className="text-white">
-                  <h1 className="text-4xl uppercase font-bold pb-5">Contacto</h1>
+                  <h1 className="text-4xl uppercase font-bold pb-5"><FaArrowCircleRight /> Contacto</h1>
                   <hr/>
                   <p className="text-lg pt-10">Si tienes alguna pregunta o comentario, no dudes en ponerte en contacto con nosotros.</p><br/>
                   <p className="text-lg">Puedes enviarnos un correo electrónico a:<br/><a href="mailto:contacto@cadieg.com.mx" className="text-blue-500">contacto@cadieg.com.mx</a></p>
